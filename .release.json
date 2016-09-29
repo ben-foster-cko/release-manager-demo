@@ -10,7 +10,7 @@
    "tagName": "%s",
    "tagAnnotation": "%s",
    "buildCommand": "",
-   "changelogCommand": "",
+   "changelogCommand": "git log --pretty=format:'* %s (%h)' [REV_RANGE] > changelog.md",
    "requireCleanWorkingDir": false,
    "src": {
        "pushRepo": null,
