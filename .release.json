@@ -6,11 +6,12 @@
    "pkgFiles": [],
    "increment": false,
    "prereleaseId": "rc",
+   "prereleaseName": "rc",
    "commitMessage": "[skip ci] Release %s",
    "tagName": "%s",
    "tagAnnotation": "%s",
    "buildCommand": "",
-   "changelogCommand": "git log --pretty=format:'* %s (%h)' [REV_RANGE]",
+   "changelogCommand": "echo [REV_RANGE] && git log --pretty=format:'* %s (%h)' [REV_RANGE]",
    "requireCleanWorkingDir": false,
    "src": {
        "pushRepo": null,
