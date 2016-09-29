@@ -10,7 +10,7 @@
    "tagName": "%s",
    "tagAnnotation": "%s",
    "buildCommand": "",
-   "changelogCommand": "git changelog > changelog.md && git changelog",
+   "changelogCommand": "git changelog [REV_RANGE] && echo [REV_RANGE]",
    "requireCleanWorkingDir": false,
    "src": {
        "pushRepo": null,
@@ -35,7 +35,7 @@
        "forcePublishSourceRepo": false
    },
    "github": {
-       "release": true,
+       "release": false,
        "releaseName": "%s",
        "tokenRef": "GITHUB_TOKEN"
    }
