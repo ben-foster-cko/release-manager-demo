@@ -10,7 +10,7 @@
    "tagName": "%s",
    "tagAnnotation": "%s",
    "buildCommand": "",
-   "changelogCommand": "git changelog [REV_RANGE] && echo [REV_RANGE]",
+   "changelogCommand": "echo [REV_RANGE]",
    "requireCleanWorkingDir": false,
    "src": {
        "pushRepo": null,
